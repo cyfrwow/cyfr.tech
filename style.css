@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    position: relative;
+    place-items: center;
+    color: whitesmoke;
+    font-family: 'Reggae One', cursive;
+}
+.container section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1 {
+    font-size: 5rem;
+}
+.container h2 {
+    color: blanchedalmond;
+}
+.container img {
+    position: absolute;
+    min-width: 100%;
+    height: 100%;
+    z-index: -99999;
+}
+.container video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -99999;
+}
